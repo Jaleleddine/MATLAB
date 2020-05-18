@@ -1,5 +1,5 @@
-y = [2.0341 0.0421;2.1344 0.9500;2.0015 0.0370];
+y = [1.4135 0.0169; 1.5237 0.6689; 1.4217 0.2326];
 b=bar(y)
-legend({'Moyenne','Écart type'},'Location','northeast',...    %Légende du tracé avec le texte à afficher se trouvant entre {}
-      'FontSize',10,'FontWeight','bold')
-  set(gca,'xticklabel',{'DVP','TP','PL'},'FontWeight','bold')
+legend({'Mean','SD'},'Location','northeast',...    %Légende du tracé avec le texte à afficher se trouvant entre {}
+      'FontSize',9,'FontWeight','bold')
+  set(gca,'xticklabel',{'Eigen Deceomposition','Polynomial Transform','Linear Programming'},'FontWeight','bold')
